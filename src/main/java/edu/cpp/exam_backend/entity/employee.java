@@ -19,5 +19,5 @@ public class employee {
     @ManyToOne
     @JsonIgnore
     @JoinColumn(name = "department_id", nullable = false)
-    private department departmentId;
+    private department department;
 }
